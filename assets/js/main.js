@@ -267,7 +267,7 @@
       charIndex++;
       if (charIndex > currentTitle.length) {
         clearInterval(typingInterval);
-        setTimeout(eraseText, 1000);
+        setTimeout(eraseText, 2000);
       }
     }, 100);
   }
