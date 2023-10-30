@@ -1819,25 +1819,28 @@ section .container {
 .feature-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; 
+
+  
 }
 
 .feature .feature-content h3 {
-color: #18d26e;
-font-weight: bold;
+  color: #18d26e;
+  font-weight: bold;
+  text-align: justify;
 }
 
 .feature .feature-content p {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: justify;
-  font-size: small;
+  font-size: medium;
 }
 
 .project-image img {
   width: 400px;
   max-width: 400px;
-  
 }
+
 
 
 
@@ -2034,28 +2037,3 @@ font-weight: bold;
 
 
 
-
-
-
-.portfolio {
-  padding-bottom: 100px;
-}
-.portfolio .btn:focus, .portfolio .btn:hover, .portfolio .btn.focus.active {
-  box-shadow: none !important;
-  outline: 0 !important;
-}
-.portfolio .btn-group .btn {
-  border-radius: 0px !important;
-  padding-left: 0px;
-  font-weight: 700;
-}
-.portfolio .btn-group .btn:hover {
-  color: #f44336;
-}
-.portfolio .btn-group:not(:first-child) > .btn, .portfolio .btn-group > .btn:not(:first-child) {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
-.portfolio .btn.active {
-  color: #f44336;
-}
