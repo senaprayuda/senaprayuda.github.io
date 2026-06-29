@@ -256,7 +256,7 @@
    * Animasi Tulisan HOME
    */
   const jobTitle = document.getElementById('job-title');
-  const titles = ['Web Developer', 'Frontend Developer', 'Data Engineer'];
+  const titles = ['Web Developer', 'Frontend Developer', 'IT Support', 'IT Infrastructure'];
   let index = 0;
   
   function typeText() {
